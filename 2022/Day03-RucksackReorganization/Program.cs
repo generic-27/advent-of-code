@@ -19,6 +19,7 @@ int GetPriorityByComparingRucksacks(string[] rucksacks)
 
     for (int i = 1; i < rucksacks.Length; i++)
     {
+        var hashSet = new HashSet<char>();
         foreach (var character in rucksacks[i])
         {
             if (rucksackHashSet.Contains(character))
