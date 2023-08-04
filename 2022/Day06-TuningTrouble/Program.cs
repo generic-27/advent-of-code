@@ -1,11 +1,10 @@
-﻿var datatStream = File.ReadAllText("input.txt");
-
-int GetTotalCharactersProcessedToGetNDistinctPackets(int n)
+﻿
+int GetTotalCharactersProcessedToGetNDistinctPackets(int n, string dataStream)
 {
     var charList = new List<char>();
     int totalCharacterProcessed = 0;
 
-    for (int i = 0; i < datatStream.Length; i++)
+    for (int i = 0; i < dataStream.Length; i++)
     {
         if (charList.Count() == n)
         {
@@ -13,7 +12,7 @@ int GetTotalCharactersProcessedToGetNDistinctPackets(int n)
             break;
         }
 
-        int index = charList.IndexOf(datatStream[i]);
+        int index = charList.IndexOf(dataStream[i]);
         if (index != -1)
         {
             for (int j = 0; j <= index; j++)
@@ -22,7 +21,7 @@ int GetTotalCharactersProcessedToGetNDistinctPackets(int n)
             }
         }
 
-        charList.Add(datatStream[i]);
+        charList.Add(dataStream[i]);
     }
 
     return totalCharacterProcessed;
@@ -30,14 +29,18 @@ int GetTotalCharactersProcessedToGetNDistinctPackets(int n)
 
 void RunPartOne()
 {
-    var totalCharacters = GetTotalCharactersProcessedToGetNDistinctPackets(4);
+    var dataStream = File.ReadAllText("input.txt");
+
+    var totalCharacters = GetTotalCharactersProcessedToGetNDistinctPackets(4, dataStream);
 
     Console.WriteLine(totalCharacters);
 }
 
 void RunPartTwo()
 {
-    var totalCharacters = GetTotalCharactersProcessedToGetNDistinctPackets(14);
+    var dataStream = File.ReadAllText("input.txt");
+
+    var totalCharacters = GetTotalCharactersProcessedToGetNDistinctPackets(14, dataStream);
 
     Console.WriteLine(totalCharacters);
 }
