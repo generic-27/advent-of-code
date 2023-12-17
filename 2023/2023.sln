@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day03-GearRatios", "Day03-G
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day04-Scratchcards", "Day04-Scratchcards\Day04-Scratchcards.csproj", "{AECE9F9D-CB02-4BBB-B597-9A768A9DACB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05-IfYouGiveASeedAFertilizer", "Day05-IfYouGiveASeedAFertilizer\Day05-IfYouGiveASeedAFertilizer.csproj", "{0982123F-EB06-421F-A52F-0519E3647B76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day05-IfYouGiveASeedAFertilizer", "Day05-IfYouGiveASeedAFertilizer\Day05-IfYouGiveASeedAFertilizer.csproj", "{0982123F-EB06-421F-A52F-0519E3647B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06-WaitForIt", "Day06-WaitForIt\Day06-WaitForIt.csproj", "{AFA2D443-B065-4FFF-80E9-D97A4350243F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0982123F-EB06-421F-A52F-0519E3647B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0982123F-EB06-421F-A52F-0519E3647B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0982123F-EB06-421F-A52F-0519E3647B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA2D443-B065-4FFF-80E9-D97A4350243F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA2D443-B065-4FFF-80E9-D97A4350243F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA2D443-B065-4FFF-80E9-D97A4350243F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA2D443-B065-4FFF-80E9-D97A4350243F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
