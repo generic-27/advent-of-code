@@ -5,7 +5,13 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01-Trebuchet", "Day01-Trebuchet\Day01-Trebuchet.csproj", "{F5872180-2783-4840-8A1E-BA58BAE635AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02-CubeConundrum", "Day02-CubeConundrum\Day02-CubeConundrum.csproj", "{C0FABC9C-28B0-4000-82B6-37424F37BF69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day02-CubeConundrum", "Day02-CubeConundrum\Day02-CubeConundrum.csproj", "{C0FABC9C-28B0-4000-82B6-37424F37BF69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day03-GearRatios", "Day03-GearRatios\Day03-GearRatios.csproj", "{01F9E692-AA58-445C-B2C2-6806C725D77C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day04-Scratchcards", "Day04-Scratchcards\Day04-Scratchcards.csproj", "{AECE9F9D-CB02-4BBB-B597-9A768A9DACB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05-IfYouGiveASeedAFertilizer", "Day05-IfYouGiveASeedAFertilizer\Day05-IfYouGiveASeedAFertilizer.csproj", "{0982123F-EB06-421F-A52F-0519E3647B76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{C0FABC9C-28B0-4000-82B6-37424F37BF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0FABC9C-28B0-4000-82B6-37424F37BF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0FABC9C-28B0-4000-82B6-37424F37BF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F9E692-AA58-445C-B2C2-6806C725D77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F9E692-AA58-445C-B2C2-6806C725D77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F9E692-AA58-445C-B2C2-6806C725D77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F9E692-AA58-445C-B2C2-6806C725D77C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AECE9F9D-CB02-4BBB-B597-9A768A9DACB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECE9F9D-CB02-4BBB-B597-9A768A9DACB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECE9F9D-CB02-4BBB-B597-9A768A9DACB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECE9F9D-CB02-4BBB-B597-9A768A9DACB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0982123F-EB06-421F-A52F-0519E3647B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0982123F-EB06-421F-A52F-0519E3647B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0982123F-EB06-421F-A52F-0519E3647B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0982123F-EB06-421F-A52F-0519E3647B76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
