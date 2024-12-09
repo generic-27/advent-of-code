@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02-RedNosedReports", "Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03-MullItOver", "Day03-MullItOver\Day03-MullItOver.csproj", "{971C5377-918E-4FC5-80F8-DC02C9B8428C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04-CeresSearch", "Day04-CeresSearch\Day04-CeresSearch.csproj", "{77ABC42C-E4D2-4239-B830-B7E9A4CA85BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{971C5377-918E-4FC5-80F8-DC02C9B8428C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{971C5377-918E-4FC5-80F8-DC02C9B8428C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{971C5377-918E-4FC5-80F8-DC02C9B8428C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77ABC42C-E4D2-4239-B830-B7E9A4CA85BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77ABC42C-E4D2-4239-B830-B7E9A4CA85BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77ABC42C-E4D2-4239-B830-B7E9A4CA85BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77ABC42C-E4D2-4239-B830-B7E9A4CA85BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
