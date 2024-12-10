@@ -1,6 +1,10 @@
 ﻿var xmasData = File.ReadAllLines("input.txt");
 var characterGrid = xmasData.Select(line => line.ToList()).ToList();
 
+PartOne();
+PartTwo();
+return;
+
 void PartOne()
 {
     var directions = new int[][]
@@ -79,7 +83,7 @@ int GetNumberOfMasFormed(List<(int, int)> aCharacterList)
         var masString = $"{characterGrid[topRow][leftColumn]}{characterGrid[row][column]}{characterGrid[bottomRow][rightColumn]}";
         var masString2 = $"{characterGrid[topRow][rightColumn]}{characterGrid[row][column]}{characterGrid[bottomRow][leftColumn]}";
 
-        if ((masString == "MAS" || masString == "SAM") && (masString2 == "MAS" || masString2 == "SAM"))
+        if (masString is "MAS" or "SAM" && masString2 is "MAS" or "SAM")
         {
             count++;
         }
@@ -94,13 +98,10 @@ int GetNumberOfXmasFormed(List<(int, int)> xCharacterList, int[][] directions, S
     
     foreach (var node in xCharacterList)
     {
-        var stack = new Stack<(int, int)>();
-        stack.Push(node);
-
         foreach (var direction in directions)
         {
             var currentStack = new Stack<(int, int)>();
-            currentStack.Push(stack.Peek());
+            currentStack.Push(node);
             
             var xmasStackCopy = new Stack<char>(xmasStack);
 
@@ -128,12 +129,7 @@ int GetNumberOfXmasFormed(List<(int, int)> xCharacterList, int[][] directions, S
                 }
             }
         }
-
-        stack.Pop();
     }
 
     return count;
 }
-
-// PartOne(); 
-PartTwo();
