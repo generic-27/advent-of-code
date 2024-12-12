@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03-MullItOver", "Day03-M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04-CeresSearch", "Day04-CeresSearch\Day04-CeresSearch.csproj", "{77ABC42C-E4D2-4239-B830-B7E9A4CA85BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05-PrintQueue", "Day05-PrintQueue\Day05-PrintQueue.csproj", "{EF243877-796B-4A3E-892D-B45B2B628130}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{77ABC42C-E4D2-4239-B830-B7E9A4CA85BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77ABC42C-E4D2-4239-B830-B7E9A4CA85BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77ABC42C-E4D2-4239-B830-B7E9A4CA85BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF243877-796B-4A3E-892D-B45B2B628130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF243877-796B-4A3E-892D-B45B2B628130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF243877-796B-4A3E-892D-B45B2B628130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF243877-796B-4A3E-892D-B45B2B628130}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
