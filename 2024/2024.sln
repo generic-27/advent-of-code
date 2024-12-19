@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04-CeresSearch", "Day04-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05-PrintQueue", "Day05-PrintQueue\Day05-PrintQueue.csproj", "{EF243877-796B-4A3E-892D-B45B2B628130}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06-GuardGallivant", "Day06-GuardGallivant\Day06-GuardGallivant.csproj", "{712F03C6-7EED-4F47-9AE9-077C5DE5F085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07-BridgeRepair", "Day07-BridgeRepair\Day07-BridgeRepair.csproj", "{217008CF-EA06-4CBA-A6DD-8C29547D15AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{EF243877-796B-4A3E-892D-B45B2B628130}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF243877-796B-4A3E-892D-B45B2B628130}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF243877-796B-4A3E-892D-B45B2B628130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712F03C6-7EED-4F47-9AE9-077C5DE5F085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712F03C6-7EED-4F47-9AE9-077C5DE5F085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712F03C6-7EED-4F47-9AE9-077C5DE5F085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712F03C6-7EED-4F47-9AE9-077C5DE5F085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217008CF-EA06-4CBA-A6DD-8C29547D15AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217008CF-EA06-4CBA-A6DD-8C29547D15AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217008CF-EA06-4CBA-A6DD-8C29547D15AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217008CF-EA06-4CBA-A6DD-8C29547D15AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
